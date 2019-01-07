@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#000</color>
+    <color name="grey">#ddd</color>
+    <color name="white">#FFF</color>
+
+    <color name="colorAccent">#ff5722</color>
+    <color name="colorContextMenu">#616161</color>
+    <color name="colorDivider">#ccc</color>
+    <color name="colorFAB">#FF9800</color>
+    <color name="colorFABPressed">#F57C00</color>
+    <color name="colorPrimary">#F44336</color>
+    <color name="colorPrimaryLight">#00c9af</color>
+    <color name="colorPrimaryDark">#D32F2F</color>
+    <color name="colorPrimarytext">#212121</color>
+    <color name="colorSecondText">#999</color>
+    <color name="colorLink">#1EA4F7</color>
+
+    <!-- DATETIME PICKER -->
+    <color name="mdtp_accent_color">@color/colorPrimary</color>
+    <color name="mdtp_accent_color_dark">@color/colorPrimaryDark</color>
+</resources>

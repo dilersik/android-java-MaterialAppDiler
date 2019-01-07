@@ -1,0 +1,14 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".CarActivity">
+
+    <item
+        android:id="@+id/action_searchable_activity"
+        android:orderInCategory="100"
+        android:icon="@drawable/ic_search"
+        android:title="@string/buscar_carros"
+        app:showAsAction="ifRoom|collapseActionView"
+        app:actionViewClass="android.support.v7.widget.SearchView" />
+
+</menu>

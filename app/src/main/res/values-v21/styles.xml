@@ -1,0 +1,52 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="Theme.AppTheme" parent="Theme.AppCompat.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="colorControlNormal">@android:color/white</item>
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+
+        <!-- MaterialDrawer specific values -->
+        <item name="material_drawer_primary_text">@color/colorPrimarytext</item>
+        <item name="material_drawer_selected_text">@color/colorPrimary</item>
+
+        <item name="android:windowActivityTransitions">true</item>
+        <item name="android:windowContentTransitions">true</item>
+    </style>
+
+    <style name="Theme.MyThemeBottom" parent="Theme.AppCompat.NoActionBar">
+        <item name="colorPrimary">@android:color/white</item>
+    </style>
+
+    <style name="MyAlertDialog" parent="MaterialBaseTheme.Light.AlertDialog">
+        <item name="android:windowBackground">@null</item>
+        <item name="android:background">@null</item>
+        <item name="android:padding">2dp</item>
+    </style>
+
+    <style name="MyCustomToolbarStyle" parent="Theme.AppCompat.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="android:textColorPrimary">@android:color/white</item>
+        <item name="android:textColorSecondary">@android:color/white</item>
+        <item name="android:textColorHint">@android:color/white</item>
+        <item name="colorControlActivated">@android:color/white</item>
+        <!-- item name="autoCompleteTextViewStyle">@style/AutoCompleteTextViewHoloLight</item -->
+    </style>
+
+    <!-- ToolBar -->
+    <style name="ToolBarStyle" parent="ThemeOverlay.AppCompat.Dark">
+        <item name="android:textColorPrimary">@android:color/white</item>
+        <item name="android:textColorSecondary">@android:color/white</item>
+        <item name="actionMenuTextColor">@android:color/white</item>
+    </style>
+
+    <!-- Contact -->
+    <style name="Theme.ContactActivity.Toolbar.BackArrow" parent="Theme.AppTheme">
+        <item name="colorControlNormal">@android:color/white</item>
+    </style>
+    <style name="Theme.ContactActivity" parent="Theme.AppTheme">
+        <item name="colorControlNormal">@color/colorSecondText</item>
+        <item name="colorControlActivated">@color/colorPrimarytext</item>
+    </style>
+</resources>
